@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feira de Ideias de Sustentabilidade</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Feira de Ideias de Sustentabilidade</h1>
+    <p>Soluções sustentáveis para pequenos agricultores</p>
+</header>
+
+<div class="container-circular">
+
+    <div class="centro">
+        <h2>FEIRA DE IDEIAS DE SUSTENTABILIDADE</h2>
+    </div>
+
+    <div class="ideia ideia1" onclick="mostrarDetalhes('compostagem')">
+        🌱 Compostagem
+    </div>
+
+    <div class="ideia ideia2" onclick="mostrarDetalhes('captacao')">
+        💧 Água da Chuva
+    </div>
+
+    <div class="ideia ideia3" onclick="mostrarDetalhes('energia')">
+        ☀️ Energia Solar
+    </div>
+
+    <div class="ideia ideia4" onclick="mostrarDetalhes('agrofloresta')">
+        🌳 Agrofloresta
+    </div>
+
+    <div class="ideia ideia5" onclick="mostrarDetalhes('horta')">
+        🥬 Horta Orgânica
+    </div>
+
+    <div class="ideia ideia6" onclick="mostrarDetalhes('biodiversidade')">
+        🐝 Biodiversidade
+    </div>
+
+</div>
+
+<section id="detalhes">
+
+    <h2 id="tituloIdeia">Selecione uma ideia</h2>
+
+    <img id="imagemIdeia"
+    src="https://via.placeholder.com/800x400"
+    alt="Imagem da ideia">
+
+    <p id="textoIdeia">
+        Clique em uma ideia para visualizar informações.
+    </p>
+
+    <div class="video-container">
+        <iframe id="videoIdeia"
+        src=""
+        title="Vídeo"
+        allowfullscreen></iframe>
+    </div>
+
+</section>
+
+<footer>
+    <p>Feira de Ideias de Sustentabilidade para Pequenos Agricultores © 2026</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
